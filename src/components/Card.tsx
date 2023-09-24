@@ -6,8 +6,12 @@ const Card = () => {
   return (
     <div className='rounded-[10px] overflow-hidden max-w-[343px] lg:max-w-[600px] bg-white flex flex-col lg:flex-row'>
       <div>
-        <img className='lg:hidden' src={ProductMobile} alt='Product' />
-        <img className='hidden lg:block' src={ProductDesktop} alt='Product' />
+        <img className='lg:hidden h-full' src={ProductMobile} alt='Product' />
+        <img
+          className='hidden lg:block h-full'
+          src={ProductDesktop}
+          alt='Product'
+        />
       </div>
 
       <div className='px-6'>
