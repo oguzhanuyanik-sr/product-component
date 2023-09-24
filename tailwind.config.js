@@ -16,19 +16,19 @@ export default {
       fontSize: {
         'display': [
           '32px',
-          { lineHeight: '32px', fontWeight: 'bold', fontFamily: ['Fraunces', 'serif'] },
+          { lineHeight: '32px', fontWeight: 'bold' },
         ],
         'body': [
           '14px',
-          { lineHeight: '23px', fontWeight: 'medium', fontFamily: ['Montserrat', 'sans-serif'] },
+          { lineHeight: '23px', fontWeight: 'medium' },
         ],
         'button': [
           '14px',
-          { fontWeight: 'bold', fontFamily: ['Montserrat', 'sans-serif'] },
+          { fontWeight: 'bold' },
         ],
         'overline': [
           '12px',
-          { fontWeight: 'medium', letterSpacing: '5px', fontFamily: ['Montserrat', 'sans-serif'] },
+          { fontWeight: 'medium', letterSpacing: '5px' },
         ],
       },
       fontFamily: {

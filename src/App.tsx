@@ -1,9 +1,11 @@
-import React from 'react';
+import Card from './components/Card';
 
-type Props = {};
-
-const App = (props: Props) => {
-  return <div></div>;
+const App = () => {
+  return (
+    <main>
+      <Card />
+    </main>
+  );
 };
 
 export default App;

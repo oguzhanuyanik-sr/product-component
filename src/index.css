@@ -10,7 +10,7 @@
   }
 
   body {
-    @apply overflow-x-hidden;
+    @apply overflow-x-hidden bg-cream min-h-screen w-full flex justify-center items-center px-4 font-montserrat py-5;
   }
 
   img {
